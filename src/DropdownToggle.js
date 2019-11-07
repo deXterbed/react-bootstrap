@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import isRequiredForA11y from 'prop-types-extra/lib/isRequiredForA11y';
 import React from 'react';
-import { useDropdownToggle } from 'react-overlays/DropdownToggle';
+import { useDropdownToggle } from 'react-overlays/lib/DropdownToggle';
 import useMergedRefs from '@restart/hooks/useMergedRefs';
 import Button from './Button';
 import { useBootstrapPrefix } from './ThemeProvider';

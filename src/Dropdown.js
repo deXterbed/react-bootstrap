@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React, { useContext } from 'react';
-import BaseDropdown from 'react-overlays/Dropdown';
+import BaseDropdown from 'react-overlays/lib/Dropdown';
 import { useUncontrolled } from 'uncontrollable';
 import useEventCallback from '@restart/hooks/useEventCallback';
 import DropdownItem from './DropdownItem';

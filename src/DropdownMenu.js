@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import React, { useContext } from 'react';
-import { useDropdownMenu } from 'react-overlays/DropdownMenu';
+import { useDropdownMenu } from 'react-overlays/lib/DropdownMenu';
 import useMergedRefs from '@restart/hooks/useMergedRefs';
 import NavbarContext from './NavbarContext';
 import { useBootstrapPrefix } from './ThemeProvider';

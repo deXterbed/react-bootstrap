@@ -6,7 +6,7 @@ import removeEventListener from 'dom-helpers/removeEventListener';
 import getScrollbarSize from 'dom-helpers/scrollbarSize';
 import PropTypes from 'prop-types';
 import React from 'react';
-import BaseModal from 'react-overlays/Modal';
+import BaseModal from 'react-overlays/lib/Modal';
 import BootstrapModalManager from './BootstrapModalManager';
 import Fade from './Fade';
 import Body from './ModalBody';

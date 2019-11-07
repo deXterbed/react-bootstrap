@@ -2,7 +2,7 @@ import React from 'react';
 import { findDOMNode } from 'react-dom';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import BaseOverlay from 'react-overlays/Overlay';
+import BaseOverlay from 'react-overlays/lib/Overlay';
 import { componentOrElement, elementType } from 'prop-types-extra';
 
 import Fade from './Fade';
